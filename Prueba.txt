@@ -1,0 +1,13 @@
+Ciclo 3
+Proyecto: Se propone analizar, diseñar y construir una aplicación software que permita controlar las
+ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+
+Modalidad: célula de desarrollo (trabajo en equipo de cinco estudiantes)
+
+Nombre del grupo: Delta
+
+Herramientas para metodología scrum: Git, GitHub y Trello
+
+Presentación de los integrantes del grupo:
+
+Soy Joan David Martínez, tengo 18 años y estudio ingenieria de sistemas
