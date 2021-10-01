@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+
+}
+main{
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+}
+#formContainer{
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    background-color: wheat;
+}
+
+#formContainer > h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size : 3rem;
+}
+#formContainer > form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#formContainer > form > input{
+    padding: 8px;
+    border-radius: 6px;
+    border:2px solid rgb(0, 0, 0);
+}
+#formContainer > form > button{
+    margin-top: 10px;  
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(15, 214, 171);
+    color: rgb(255, 255, 255);
+    font-size:1rem;
+}
+#formContainer > form > button:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+    background-color: darkorchid;
+}
+
+
+
+table, td, th, tr{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(160, 160, 160);
+    color: rgb(0, 0, 0);
+    padding: 10px 5px;
+    font-size : 2rem;
+}
+td{
+    padding: 10px 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: white;
+    }
+    main{
+       
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: white;
+    }
+    main{
+       
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: white;
+    }
+    main{
+       
+        grid-template-columns: 1fr 1.8fr;
+    }
+}
