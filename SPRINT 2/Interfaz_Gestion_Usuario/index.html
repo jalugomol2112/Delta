@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b080cfdb58.js" crossorigin="anonymous"></script>
+    <title>Usuarios</title>
+</head>
+<body>
+    <main>
+        <section id="formContainer">
+            <h1>usuarios </h1>
+            <form>
+                <label for="inNickName">Nombre de Usuario</label>
+                <input id='inNickName' type="text" placeholder=" Ingrese Nombre"/>
+                <label for="inRol">Rol</label>
+                <input id='inRol' type="rol" placeholder=" Ingrese rol"/>
+                <label for="inEmail">Email</label>
+                <input id='inEmail' type="email" placeholder=" Ingrese Email"/>
+                <label for="inPassword">Password</label>
+                <input id='inPassword' type="password" />
+                <button id="btnAddUpdate" type="submit">GUARDAR</button>
+            </form>
+        </section>
+        <section id="tableConteiner">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>Rol</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th>Contraseña</th>
+                    </tr>
+                </thead>
+                <tbody>   
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="User.js"></script>
+    <script src="comand.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
