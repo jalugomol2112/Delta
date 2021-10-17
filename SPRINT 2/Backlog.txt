@@ -1,0 +1,6 @@
+Interfaces:
+- Módulo de administrador de ventas.
+- Módulo de registro del estado de la venta.
+- Módulo de gestión de vendedores.
+- Módulo de gestión de ingreso al sistema de información.
+- Módulo de gestión de usuarios y roles.
